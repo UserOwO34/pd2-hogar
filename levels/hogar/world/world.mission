@@ -2475,10 +2475,6 @@
 							<entry key="id" type="number" value="100150"/>
 						</entry>
 						<entry index="53" type="table">
-							<entry key="delay" type="number" value="2"/>
-							<entry key="id" type="number" value="101240"/>
-						</entry>
-						<entry index="54" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100163"/>
 						</entry>
@@ -4975,10 +4971,6 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101437"/>
 						</entry>
-						<entry index="4" type="table">
-							<entry key="delay" type="number" value="4"/>
-							<entry key="id" type="number" value="101239"/>
-						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="3915 -688 3027"/>
 					<entry key="radius" type="number" value="250"/>
@@ -5196,6 +5188,10 @@
 						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102340"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102419"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-780.011 2693.07 -19.999"/>
@@ -6469,8 +6465,8 @@
 							<entry key="id" type="number" value="102337"/>
 						</entry>
 						<entry index="6" type="table">
-							<entry key="delay" type="number" value="3.7"/>
-							<entry key="id" type="number" value="102351"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102199"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="3916.16 165 3027"/>
@@ -11553,7 +11549,7 @@
 					<entry key="amount" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_bulldozer_3/ene_bulldozer_3"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
@@ -13191,8 +13187,8 @@
 							<entry key="id" type="number" value="102337"/>
 						</entry>
 						<entry index="10" type="table">
-							<entry key="delay" type="number" value="3.7"/>
-							<entry key="id" type="number" value="102351"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102199"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="2815 -163 3027"/>
@@ -13351,10 +13347,21 @@
 						<entry index="71" type="number" value="102201"/>
 						<entry index="72" type="number" value="101260"/>
 						<entry index="73" type="number" value="101842"/>
-						<entry index="74" type="number" value="101239"/>
-						<entry index="75" type="number" value="102351"/>
-						<entry index="76" type="number" value="100310"/>
-						<entry index="77" type="number" value="100282"/>
+						<entry index="74" type="number" value="100310"/>
+						<entry index="75" type="number" value="100282"/>
+						<entry index="76" type="number" value="102200"/>
+						<entry index="77" type="number" value="102349"/>
+						<entry index="78" type="number" value="102351"/>
+						<entry index="79" type="number" value="102352"/>
+						<entry index="80" type="number" value="102353"/>
+						<entry index="81" type="number" value="102354"/>
+						<entry index="82" type="number" value="102356"/>
+						<entry index="83" type="number" value="102357"/>
+						<entry index="84" type="number" value="102392"/>
+						<entry index="85" type="number" value="102389"/>
+						<entry index="86" type="number" value="102390"/>
+						<entry index="87" type="number" value="102391"/>
+						<entry index="88" type="number" value="102416"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -16181,6 +16188,10 @@
 						<entry index="5" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102339"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102419"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="2194.99 2793.07 -19.999"/>
@@ -19761,6 +19772,10 @@
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="101373"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="101478"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="833 1765 502"/>
@@ -70851,320 +70866,6 @@
 				</entry>
 			</entry>
 			<entry index="2340" type="table">
-				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_detect"/>
-				<entry key="id" type="number" value="100153"/>
-				<entry key="module" type="string" value="CoreElementPlaySound"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="append_prefix" type="boolean" value="false"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="interrupt" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="3190 3490 3027"/>
-					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
-					<entry key="sound_event" type="string" value="bik1_pft"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="true"/>
-					<entry key="use_play_func" type="boolean" value="false"/>
-				</entry>
-			</entry>
-			<entry index="2341" type="table">
-				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
-				<entry key="editor_name" type="string" value="biker_alerted_angry_voiceline"/>
-				<entry key="id" type="number" value="101478"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0.5"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100136"/>
-						<entry index="2" type="number" value="101459"/>
-						<entry index="3" type="number" value="101370"/>
-						<entry index="4" type="number" value="101369"/>
-						<entry index="5" type="number" value="100395"/>
-						<entry index="6" type="number" value="101203"/>
-						<entry index="7" type="number" value="100091"/>
-						<entry index="8" type="number" value="100135"/>
-						<entry index="9" type="number" value="100143"/>
-						<entry index="10" type="number" value="100145"/>
-						<entry index="11" type="number" value="101758"/>
-						<entry index="12" type="number" value="100166"/>
-						<entry index="13" type="number" value="100167"/>
-						<entry index="14" type="number" value="101977"/>
-						<entry index="15" type="number" value="101904"/>
-						<entry index="16" type="number" value="101208"/>
-						<entry index="17" type="number" value="102146"/>
-						<entry index="18" type="number" value="102145"/>
-						<entry index="19" type="number" value="102147"/>
-						<entry index="20" type="number" value="102148"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="weapons_hot"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100153"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="10"/>
-							<entry key="id" type="number" value="102199"/>
-						</entry>
-					</entry>
-					<entry key="position" type="vector3" value="3265 3490 3027"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="2342" type="table">
-				<entry key="class" type="string" value="ElementToggle"/>
-				<entry key="editor_name" type="string" value="on_biker_angry_voiceline"/>
-				<entry key="id" type="number" value="102199"/>
-				<entry key="module" type="string" value="CoreElementToggle"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100153"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="3190 3540 3027"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="set_trigger_times" type="number" value="1"/>
-					<entry key="toggle" type="string" value="on"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="2343" type="table">
-				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_male_clowns_here_001"/>
-				<entry key="id" type="number" value="102200"/>
-				<entry key="module" type="string" value="CoreElementPlaySound"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="append_prefix" type="boolean" value="false"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100145"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="interrupt" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="3.3"/>
-							<entry key="id" type="number" value="100104"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="5"/>
-							<entry key="id" type="number" value="100580"/>
-						</entry>
-					</entry>
-					<entry key="position" type="vector3" value="3040 3490 3027"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkm_chw_01"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
-					<entry key="use_play_func" type="boolean" value="false"/>
-				</entry>
-			</entry>
-			<entry index="2344" type="table">
-				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_female_clowns_here"/>
-				<entry key="id" type="number" value="102349"/>
-				<entry key="module" type="string" value="CoreElementPlaySound"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="append_prefix" type="boolean" value="false"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100040"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="interrupt" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="3040 3540 3027"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkf_chw_01"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
-					<entry key="use_play_func" type="boolean" value="false"/>
-				</entry>
-			</entry>
-			<entry index="2345" type="table">
-				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_male_they_still_alive"/>
-				<entry key="id" type="number" value="102351"/>
-				<entry key="module" type="string" value="CoreElementPlaySound"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="append_prefix" type="boolean" value="false"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="101370"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="false"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="interrupt" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="3040 3790 3027"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkm_chw_02"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
-					<entry key="use_play_func" type="boolean" value="false"/>
-				</entry>
-			</entry>
-			<entry index="2346" type="table">
-				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_male_protect_loot_001"/>
-				<entry key="id" type="number" value="102352"/>
-				<entry key="module" type="string" value="CoreElementPlaySound"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="append_prefix" type="boolean" value="false"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100091"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="interrupt" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="3"/>
-							<entry key="id" type="number" value="102356"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="6"/>
-							<entry key="id" type="number" value="102357"/>
-						</entry>
-					</entry>
-					<entry key="position" type="vector3" value="3040 3665 3027"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkm_chw_03"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
-					<entry key="use_play_func" type="boolean" value="false"/>
-				</entry>
-			</entry>
-			<entry index="2347" type="table">
-				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_female_protect_loot"/>
-				<entry key="id" type="number" value="102353"/>
-				<entry key="module" type="string" value="CoreElementPlaySound"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="append_prefix" type="boolean" value="false"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100143"/>
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="interrupt" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="3040 3715 3027"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkf_chw_03"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
-					<entry key="use_play_func" type="boolean" value="false"/>
-				</entry>
-			</entry>
-			<entry index="2348" type="table">
-				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_boss_shouldnt_have_come"/>
-				<entry key="id" type="number" value="102354"/>
-				<entry key="module" type="string" value="CoreElementPlaySound"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="append_prefix" type="boolean" value="false"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-					</entry>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="interrupt" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="3040 3865 3027"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkb_chw_02"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
-					<entry key="use_play_func" type="boolean" value="false"/>
-				</entry>
-			</entry>
-			<entry index="2349" type="table">
-				<entry key="class" type="string" value="ElementRandom"/>
-				<entry key="editor_name" type="string" value="random_biker_protect_loot"/>
-				<entry key="id" type="number" value="101239"/>
-				<entry key="module" type="string" value="CoreElementRandom"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="amount" type="number" value="1"/>
-					<entry key="amount_random" type="number" value="0"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="false"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="ignore_disabled" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="102352"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="102353"/>
-						</entry>
-					</entry>
-					<entry key="position" type="vector3" value="3040 3615 3027"/>
-					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="2350" type="table">
-				<entry key="class" type="string" value="ElementRandom"/>
-				<entry key="editor_name" type="string" value="random_biker_clowns_here"/>
-				<entry key="id" type="number" value="101240"/>
-				<entry key="module" type="string" value="CoreElementRandom"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="amount" type="number" value="1"/>
-					<entry key="amount_random" type="number" value="0"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="ignore_disabled" type="boolean" value="true"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="102200"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="102349"/>
-						</entry>
-					</entry>
-					<entry key="position" type="vector3" value="3040 3440 3027"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="2351" type="table">
 				<entry key="class" type="string" value="ElementShape"/>
 				<entry key="editor_name" type="string" value="shape_inside_001"/>
 				<entry key="id" type="number" value="100169"/>
@@ -71186,7 +70887,7 @@
 					<entry key="width" type="number" value="2600"/>
 				</entry>
 			</entry>
-			<entry index="2352" type="table">
+			<entry index="2341" type="table">
 				<entry key="class" type="string" value="ElementShape"/>
 				<entry key="editor_name" type="string" value="shape_inside_003"/>
 				<entry key="id" type="number" value="100171"/>
@@ -71208,7 +70909,7 @@
 					<entry key="width" type="number" value="2000"/>
 				</entry>
 			</entry>
-			<entry index="2353" type="table">
+			<entry index="2342" type="table">
 				<entry key="class" type="string" value="ElementShape"/>
 				<entry key="editor_name" type="string" value="shape_inside_006"/>
 				<entry key="id" type="number" value="102350"/>
@@ -71230,7 +70931,7 @@
 					<entry key="width" type="number" value="400"/>
 				</entry>
 			</entry>
-			<entry index="2354" type="table">
+			<entry index="2343" type="table">
 				<entry key="class" type="string" value="ElementToggle"/>
 				<entry key="editor_name" type="string" value="on_obstacle_add_main_door_lockdown"/>
 				<entry key="id" type="number" value="102355"/>
@@ -71252,9 +70953,763 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
+			<entry index="2344" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_cuss"/>
+				<entry key="id" type="number" value="102358"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3275 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_aes"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2345" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_combat_initiate"/>
+				<entry key="id" type="number" value="102359"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3200 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_amb"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2346" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_point_out_player"/>
+				<entry key="id" type="number" value="102360"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3125 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_c01"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2347" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_no_deal"/>
+				<entry key="id" type="number" value="102361"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101904"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3050 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_do"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2348" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_threaten"/>
+				<entry key="id" type="number" value="102362"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102358"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2975 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_g90"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2349" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_calm"/>
+				<entry key="id" type="number" value="102363"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2900 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_ld"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2350" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_cops"/>
+				<entry key="id" type="number" value="102364"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2825 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_pa"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2351" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_threaten_very_angry"/>
+				<entry key="id" type="number" value="102365"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2750 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_pft"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2352" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_over_here_calm"/>
+				<entry key="id" type="number" value="102366"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101904"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2675 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_sfa"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2353" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_fake_deal"/>
+				<entry key="id" type="number" value="102367"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2600 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_tfp"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2354" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_trade_001"/>
+				<entry key="id" type="number" value="102368"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2525 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_tra"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
 			<entry index="2355" type="table">
 				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_male_clowns_here_002"/>
+				<entry key="editor_name" type="string" value="biker_line_trade_002"/>
+				<entry key="id" type="number" value="102369"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2450 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_tra_2"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2356" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_trade_003"/>
+				<entry key="id" type="number" value="102370"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101977"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2375 3925 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_tra_3"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2357" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_death_groan_001"/>
+				<entry key="id" type="number" value="102371"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3275 3975 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_x01a_any_3p"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2358" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_death_groan_002"/>
+				<entry key="id" type="number" value="102372"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3200 3975 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik1_x02a_any_3p"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2359" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_cuss004"/>
+				<entry key="id" type="number" value="102373"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3275 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_aes"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2360" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_combat_initiate002"/>
+				<entry key="id" type="number" value="102374"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3200 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_amb"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2361" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_point_out_player002"/>
+				<entry key="id" type="number" value="102375"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3125 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_c01"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2362" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_no_deal002"/>
+				<entry key="id" type="number" value="102376"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101208"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3050 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_do"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2363" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_threaten002"/>
+				<entry key="id" type="number" value="102377"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2975 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_g90"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2364" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_calm002"/>
+				<entry key="id" type="number" value="102378"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2900 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_ld"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2365" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_cops001"/>
+				<entry key="id" type="number" value="102379"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2825 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_pa"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2366" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_threaten_very_angry002"/>
+				<entry key="id" type="number" value="102380"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2750 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_pft"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2367" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_over_here_calm002"/>
+				<entry key="id" type="number" value="102381"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101208"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2675 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_sfa"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2368" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_fake_deal002"/>
+				<entry key="id" type="number" value="102382"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2600 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_tfp"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2369" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_trade_003"/>
+				<entry key="id" type="number" value="102383"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2525 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_tra"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2370" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_trade_004"/>
+				<entry key="id" type="number" value="102384"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2450 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_tra_2"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2371" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_trade_005"/>
+				<entry key="id" type="number" value="102385"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101904"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2375 4075 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_tra_3"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2372" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_death_groan_001_002"/>
+				<entry key="id" type="number" value="102386"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3275 4125 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_x01a_any_3p"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2373" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_death_groan_002_002"/>
+				<entry key="id" type="number" value="102387"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3200 4125 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bik2_x02a_any_3p"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2374" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_female_engage"/>
+				<entry key="id" type="number" value="102388"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3275 3725 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bb1n_g90"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2375" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_female_death_groan_001"/>
 				<entry key="id" type="number" value="100104"/>
 				<entry key="module" type="string" value="CoreElementPlaySound"/>
 				<entry key="script" type="string" value="default"/>
@@ -71262,24 +71717,47 @@
 					<entry key="append_prefix" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100136"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="interrupt" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="2990 3490 3027"/>
+					<entry key="position" type="vector3" value="3275 3775 3026.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkm_chw_01"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="sound_event" type="string" value="bb1n_x01a_any_3p"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2356" type="table">
+			<entry index="2376" type="table">
 				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_male_clowns_here_003"/>
+				<entry key="editor_name" type="string" value="biker_line_female_death_groan_002"/>
+				<entry key="id" type="number" value="100153"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3200 3775 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="bb1n_x02a_any_3p"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2377" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_female_theyre_here"/>
 				<entry key="id" type="number" value="100580"/>
 				<entry key="module" type="string" value="CoreElementPlaySound"/>
 				<entry key="script" type="string" value="default"/>
@@ -71287,69 +71765,1262 @@
 					<entry key="append_prefix" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100166"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="interrupt" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="2940 3490 3027"/>
+					<entry key="position" type="vector3" value="3200 3725 3026.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkm_chw_01"/>
-					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="sound_event" type="string" value="Play_bkf_chw_01"/>
+					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="2357" type="table">
+			<entry index="2378" type="table">
 				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_male_protect_loot_002"/>
-				<entry key="id" type="number" value="102356"/>
+				<entry key="editor_name" type="string" value="biker_line_female_theyre_still_alive"/>
+				<entry key="id" type="number" value="101239"/>
 				<entry key="module" type="string" value="CoreElementPlaySound"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
 					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3125 3725 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="Play_bkf_chw_02"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2379" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_female_protect_stuff"/>
+				<entry key="id" type="number" value="101240"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3050 3725 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="Play_bkf_chw_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2380" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_female_shouldnt_have_come"/>
+				<entry key="id" type="number" value="101478"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2975 3725 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="Play_bkb_chw_02"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2381" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="biker_line_male_protect_stuff"/>
+				<entry key="id" type="number" value="102199"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101370"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3125 3975 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="Play_bkm_chw_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2382" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_001"/>
+				<entry key="id" type="number" value="102200"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100166"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102423"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3265 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2383" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_002"/>
+				<entry key="id" type="number" value="102349"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100167"/>
+						<entry index="2" type="number" value="101758"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102424"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3190 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2384" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_003"/>
+				<entry key="id" type="number" value="102351"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100040"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102388"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3115 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2385" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_004"/>
+				<entry key="id" type="number" value="102352"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100145"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102424"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3040 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2386" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_005"/>
+				<entry key="id" type="number" value="102353"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100143"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102388"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2965 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2387" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_006"/>
+				<entry key="id" type="number" value="102354"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100135"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="interrupt" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102423"/>
+						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="2990 3665 3027"/>
+					<entry key="position" type="vector3" value="2890 3440 3027"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkm_chw_03"/>
-					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
-					<entry key="use_play_func" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="2358" type="table">
-				<entry key="class" type="string" value="ElementPlaySound"/>
-				<entry key="editor_name" type="string" value="biker_male_protect_loot_003"/>
-				<entry key="id" type="number" value="102357"/>
-				<entry key="module" type="string" value="CoreElementPlaySound"/>
+			<entry index="2388" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_007"/>
+				<entry key="id" type="number" value="102356"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100091"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102423"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2815 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2389" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_008"/>
+				<entry key="id" type="number" value="102357"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101203"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102424"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2740 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2390" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_010"/>
+				<entry key="id" type="number" value="102389"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101369"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102424"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2590 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2391" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_011"/>
+				<entry key="id" type="number" value="102390"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101370"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102423"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2515 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2392" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_013"/>
+				<entry key="id" type="number" value="102391"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100136"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102423"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2440 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2393" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_009"/>
+				<entry key="id" type="number" value="102392"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100395"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102423"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2665 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2394" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_001"/>
+				<entry key="id" type="number" value="102393"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100166"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3265 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2395" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_002"/>
+				<entry key="id" type="number" value="102394"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100167"/>
+						<entry index="2" type="number" value="101758"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3190 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2396" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_003"/>
+				<entry key="id" type="number" value="102395"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100040"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102405"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3115 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2397" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_004"/>
+				<entry key="id" type="number" value="102396"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100145"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3040 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2398" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_005"/>
+				<entry key="id" type="number" value="102397"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100143"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102405"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2965 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2399" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_006"/>
+				<entry key="id" type="number" value="102398"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100135"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2890 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2400" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_007"/>
+				<entry key="id" type="number" value="102399"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100091"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2815 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2401" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_008"/>
+				<entry key="id" type="number" value="102400"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101203"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2740 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2402" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_009"/>
+				<entry key="id" type="number" value="102401"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100395"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2665 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2403" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_010"/>
+				<entry key="id" type="number" value="102402"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101369"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2590 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2404" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_011"/>
+				<entry key="id" type="number" value="102403"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101370"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2515 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2405" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_013"/>
+				<entry key="id" type="number" value="102404"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100136"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2440 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2406" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_biker_female_death_groan"/>
+				<entry key="id" type="number" value="102405"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100104"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100153"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3265 3615 3027"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2407" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_biker_male_death_groan"/>
+				<entry key="id" type="number" value="102406"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102371"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102372"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102386"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102387"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3190 3615 3027"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2408" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_poker_lines_cycle_start"/>
+				<entry key="id" type="number" value="102407"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101904"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="spawn"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102411"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2740 3690 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2409" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_poker_lines_cycle_stop_death"/>
+				<entry key="id" type="number" value="102408"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101904"/>
+						<entry index="2" type="number" value="101977"/>
+						<entry index="3" type="number" value="101208"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="death"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102410"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2740 3765 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="2410" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_poker_lines_cycle_stop_alerted"/>
+				<entry key="id" type="number" value="102409"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101904"/>
+						<entry index="2" type="number" value="101977"/>
+						<entry index="3" type="number" value="101208"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102410"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2665 3765 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="2411" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_biker_poker_lines"/>
+				<entry key="id" type="number" value="102410"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="102411"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="2940 3665 3027"/>
+					<entry key="position" type="vector3" value="2590 3765 3027"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="off"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2412" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="poker_lines_loop"/>
+				<entry key="id" type="number" value="102411"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="13"/>
+							<entry key="delay_rand" type="number" value="7"/>
+							<entry key="id" type="number" value="102412"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2665 3690 3027"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2413" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_poker_line"/>
+				<entry key="id" type="number" value="102412"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102413"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102414"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102415"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102422"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2590 3690 3027"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2414" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_poker_line_001"/>
+				<entry key="id" type="number" value="102413"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102363"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102378"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2515 3690 3027"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="sound_event" type="string" value="Play_bkm_chw_03"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2415" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_poker_line_002"/>
+				<entry key="id" type="number" value="102414"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102370"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102385"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2440 3690 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2416" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_poker_line_003"/>
+				<entry key="id" type="number" value="102415"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102366"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102381"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2365 3690 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2417" type="table">
+				<entry key="class" type="string" value="ElementAreaTrigger"/>
+				<entry key="editor_name" type="string" value="trigger_biker_out_on_street"/>
+				<entry key="id" type="number" value="102416"/>
+				<entry key="module" type="string" value="CoreElementArea"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="string" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="20000"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="500"/>
+					<entry key="instigator" type="string" value="enemies"/>
+					<entry key="instigator_name" type="string" value=""/>
+					<entry key="interval" type="number" value="0.1"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102421"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102418"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102420"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-25 3321 255.001"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="rules_element_ids" type="table">
+						<entry index="1" type="number" value="102417"/>
+					</entry>
+					<entry key="shape_type" type="string" value="box"/>
+					<entry key="spawn_unit_elements" type="table">
+					</entry>
+					<entry key="substitute_object" type="string" value=""/>
+					<entry key="trigger_on" type="string" value="on_enter"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_disabled_shapes" type="boolean" value="false"/>
+					<entry key="width" type="number" value="2000"/>
+				</entry>
+			</entry>
+			<entry index="2418" type="table">
+				<entry key="class" type="string" value="ElementInstigatorRule"/>
+				<entry key="editor_name" type="string" value="instigator_rule_male_biker"/>
+				<entry key="id" type="number" value="102417"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instigator" type="string" value="enemies"/>
+					<entry key="invert" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3075 3325 3026.5"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="rules" type="table">
+						<entry key="enemies" type="table">
+							<entry key="enemy_names" type="table">
+								<entry index="1" type="string" value="units/payday2/characters/ene_biker_4/ene_biker_4_husk"/>
+								<entry index="2" type="string" value="units/payday2/characters/ene_biker_4/ene_biker_4"/>
+								<entry index="3" type="string" value="units/payday2/characters/ene_biker_3/ene_biker_3_husk"/>
+								<entry index="4" type="string" value="units/payday2/characters/ene_biker_3/ene_biker_3"/>
+								<entry index="5" type="string" value="units/payday2/characters/ene_biker_2/ene_biker_2_husk"/>
+								<entry index="6" type="string" value="units/payday2/characters/ene_biker_2/ene_biker_2"/>
+								<entry index="7" type="string" value="units/payday2/characters/ene_biker_1/ene_biker_1_husk"/>
+								<entry index="8" type="string" value="units/payday2/characters/ene_biker_1/ene_biker_1"/>
+								<entry index="9" type="string" value="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss_husk"/>
+								<entry index="10" type="string" value="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss"/>
+								<entry index="11" type="string" value="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3_husk"/>
+								<entry index="12" type="string" value="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3"/>
+								<entry index="13" type="string" value="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2_husk"/>
+								<entry index="14" type="string" value="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2"/>
+							</entry>
+						</entry>
+						<entry key="none" type="table">
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2419" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_biker_cops_line"/>
+				<entry key="id" type="number" value="102418"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102364"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102379"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2825 3850 3026.5"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2420" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_biker_cops_line"/>
+				<entry key="id" type="number" value="102419"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="102418"/>
+						<entry index="2" type="number" value="102421"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2975 3850 3026.5"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="toggle"/>
 					<entry key="trigger_times" type="number" value="1"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
-					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="2421" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_biker_protect_line"/>
+				<entry key="id" type="number" value="102421"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102199"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2900 3850 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2422" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_poker_line_004"/>
+				<entry key="id" type="number" value="102422"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102361"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102376"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2365 3765 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2423" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_bik1_male_alert_line"/>
+				<entry key="id" type="number" value="102423"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102362"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102358"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3175 3850 3026.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2424" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_bik2_male_alert_line"/>
+				<entry key="id" type="number" value="102424"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102373"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102377"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3125 3850 3026.5"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2425" type="table">
+				<entry key="class" type="string" value="ElementDebug"/>
+				<entry key="editor_name" type="string" value="debug_064"/>
+				<entry key="id" type="number" value="102420"/>
+				<entry key="module" type="string" value="CoreElementDebug"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="as_subtitle" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_string" type="string" value="biker_out_on_street"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="50 3321 255.001"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="show_instigator" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
