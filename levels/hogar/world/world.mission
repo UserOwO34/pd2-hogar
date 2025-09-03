@@ -70997,7 +70997,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="sound_event" type="string" value="bik1_amb"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
@@ -71098,7 +71098,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="sound_event" type="string" value="bik1_ld"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
@@ -71171,7 +71171,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="sound_event" type="string" value="bik1_sfa"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
@@ -71268,7 +71268,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="sound_event" type="string" value="bik1_tra_3"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
@@ -71364,7 +71364,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="sound_event" type="string" value="bik2_amb"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
@@ -71461,7 +71461,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="sound_event" type="string" value="bik2_ld"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
@@ -71534,7 +71534,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="sound_event" type="string" value="bik2_sfa"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
@@ -71631,7 +71631,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="sound_event" type="string" value="bik2_tra_3"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_instigator" type="boolean" value="true"/>
 					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
@@ -72176,7 +72176,7 @@
 						<entry index="1" type="number" value="100166"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72201,7 +72201,7 @@
 						<entry index="2" type="number" value="101758"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72225,7 +72225,7 @@
 						<entry index="1" type="number" value="100040"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72249,7 +72249,7 @@
 						<entry index="1" type="number" value="100145"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72273,7 +72273,7 @@
 						<entry index="1" type="number" value="100143"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72297,7 +72297,7 @@
 						<entry index="1" type="number" value="100135"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72321,7 +72321,7 @@
 						<entry index="1" type="number" value="100091"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72345,7 +72345,7 @@
 						<entry index="1" type="number" value="101203"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72369,7 +72369,7 @@
 						<entry index="1" type="number" value="100395"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72393,7 +72393,7 @@
 						<entry index="1" type="number" value="101369"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72417,7 +72417,7 @@
 						<entry index="1" type="number" value="101370"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72441,7 +72441,7 @@
 						<entry index="1" type="number" value="100136"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="death"/>
+					<entry key="event" type="string" value="killshot"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -72477,7 +72477,7 @@
 							<entry key="id" type="number" value="100153"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="3265 3615 3027"/>
+					<entry key="position" type="vector3" value="3265 3640 3027"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -72513,7 +72513,7 @@
 							<entry key="id" type="number" value="102387"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="3190 3615 3027"/>
+					<entry key="position" type="vector3" value="3190 3640 3027"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -72628,9 +72628,12 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="13"/>
-							<entry key="delay_rand" type="number" value="7"/>
+							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102412"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102425"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="2665 3690 3027"/>
@@ -72969,6 +72972,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102358"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102359"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="3175 3850 3026.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -72997,6 +73004,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="102377"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102374"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="3125 3850 3026.5"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -73020,6 +73031,80 @@
 					<entry key="position" type="vector3" value="50 3321 255.001"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="show_instigator" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2426" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="poker_lines_reloop"/>
+				<entry key="id" type="number" value="102425"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="14"/>
+					<entry key="base_delay_rand" type="number" value="7"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102411"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2590 3640 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2427" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_death_poker"/>
+				<entry key="id" type="number" value="102426"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101904"/>
+						<entry index="2" type="number" value="101977"/>
+						<entry index="3" type="number" value="101208"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="killshot"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102406"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2365 3515 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2428" type="table">
+				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
+				<entry key="editor_name" type="string" value="biker_alerted_poker"/>
+				<entry key="id" type="number" value="102427"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="101977"/>
+						<entry index="2" type="number" value="101904"/>
+						<entry index="3" type="number" value="101208"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="alerted"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="102423"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2365 3440 3027"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
