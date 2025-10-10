@@ -114,6 +114,12 @@
 		<sequence_manager path="units/pd2_mod_hogar/props/hogar_prop_int_turkey_head/hogar_prop_int_turkey_head"/>
 		<unit path="units/pd2_mod_hogar/props/hogar_prop_int_turkey_head/hogar_prop_int_turkey_head"/>
 	</add>
+	<add path="units/pd2_mod_hogar/props/hogar_prop_boombox_biker/hogar_prop_boombox_biker" type="unit">
+		<model path="units/pd2_mod_hogar/props/hogar_prop_boombox_biker/hogar_prop_boombox_biker"/>
+		<object path="units/pd2_mod_hogar/props/hogar_prop_boombox_biker/hogar_prop_boombox_biker"/>
+		<sequence_manager path="units/pd2_mod_hogar/props/hogar_prop_boombox_biker/hogar_prop_boombox_biker"/>
+		<unit path="units/pd2_mod_hogar/props/hogar_prop_boombox_biker/hogar_prop_boombox_biker"/>
+	</add>
 	<add path="units/pd2_mod_hogar/equipment/hogar_search_interaction/hogar_search_interaction" type="unit">
 		<material_config path="units/pd2_mod_hogar/equipment/hogar_search_interaction/hogar_search_interaction"/>
 		<model path="units/pd2_mod_hogar/equipment/hogar_search_interaction/hogar_search_interaction"/>
@@ -162,6 +168,7 @@
 	<bnk from_db="true" path="soundbanks/accomplice_heli_1" load="true"/>
 	<bnk from_db="true" path="soundbanks/npc_megaphone_police" load="true"/>
 	<bnk from_db="true" path="soundbanks/weapon_turret" load="true"/>
+	<bnk from_db="true" path="soundbanks/sfx_str" load="true"/>
 	<bnk from_db="true" path="soundbanks/npc_biker_thugs" load="true"/>
 	
 	<movie path="movies/hogar_video_tv"/>

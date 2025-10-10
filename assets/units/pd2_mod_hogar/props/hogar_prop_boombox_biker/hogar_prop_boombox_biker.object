@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/apartment/boombox/boombox" orientation_object="rp_boombox" />
+  <sequence_manager file="units/pd2_mod_hogar/props/hogar_prop_boombox_biker/hogar_prop_boombox_biker" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+	  <object name="rp_boombox"/>
+      <object name="dm_boombox" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal_chassis" static="true">
+	  <decal_mesh name="dm_boombox" enabled="true" material="metal_chassis" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_boombox" enabled="true" />
+  </graphics>
+</dynamic_object>

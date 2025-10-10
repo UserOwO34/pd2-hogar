@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<unit type="apa" slot="1">
+	<network sync="spawn"/>
+  <object file="units/pd2_mod_hogar/props/hogar_prop_boombox_biker/hogar_prop_boombox_biker" />
+    <dependencies>
+    <depends_on effect="effects/particles/dest/security_camera_dest" />
+  </dependencies>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+  <sounds>
+  	<soundsource name="rp_boombox" source="rp_boombox" />
+  </sounds>
+</unit>
+

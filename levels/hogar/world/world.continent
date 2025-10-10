@@ -3709,7 +3709,7 @@
 			<unit_data _prev_pos="1560 775 500" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pallet_01/pallet_pile_01" name_id="pallet_pile_01_001" position="1560 778 500" rotation="0 0 0 -1" unit_id="101604"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1550 775 590" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/apartment/boombox/boombox" name_id="boombox_001" position="1550 775 590" rotation="0 0 -0.121869 -0.992546" unit_id="101605"/>
+			<unit_data _prev_pos="1550 775 590" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hogar/props/hogar_prop_boombox_biker/hogar_prop_boombox_biker" name_id="hogar_prop_boombox_biker_001" position="1550 775 590" rotation="0 0 -0.121869 -0.992546" unit_id="101605"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="1275 1300 500" _prev_rot="0 0 0.694658 -0.71934" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/furniture_outdoors/furniture_outdoors_table" name_id="furniture_outdoors_table_002" position="1275 1300 500" rotation="0 0 0.766044 -0.642788" unit_id="101608"/>
