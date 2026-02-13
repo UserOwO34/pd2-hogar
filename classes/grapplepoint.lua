@@ -371,6 +371,10 @@ function GrapplePoint:is_usage_type_bag()
 	return false
 end
 
+function GrapplePoint:is_usage_type_both()
+	return false
+end
+
 function GrapplePoint:is_interact_blocked()
 	if self._booked_by_peer_id then
 		return true
