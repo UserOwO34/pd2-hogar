@@ -94,6 +94,7 @@
 	</Interactions>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
+		<loc file="russian.txt" language="russian"/>
 	</Localization>
 	<Package file="scriptdata/hogar_world.package" id="hogar_world" unload_on_restart="true"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="contact_cartel_desc" id="cartel" name_id="contact_cartel_name" package="packages/contact_bain"/>
