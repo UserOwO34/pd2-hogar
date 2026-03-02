@@ -24,7 +24,7 @@
 ### 🎮 Tested
 - Language switches correctly via Steam
 - Russian text displays properly
-- Original `english.txt` untouched
+
 
 ### 👤 Translator
 Userus213
@@ -55,7 +55,7 @@ Userus213
 ### 🎮 Проверено
 - Язык переключается через Steam
 - Русский текст отображается корректно
-- Оригинальный `english.txt` не изменён
+
 
 ### 👤 Автор перевода
 Userus213
