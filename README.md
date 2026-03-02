@@ -27,7 +27,7 @@
 - Original `english.txt` untouched
 
 ### 👤 Translator
-[Your name/nickname]
+Userus213
 
 ### 🔗 Links
 - Original mod: [ModWorkshop](https://modworkshop.net/mod/45238)
@@ -58,7 +58,7 @@
 - Оригинальный `english.txt` не изменён
 
 ### 👤 Автор перевода
-[Ваше имя/ник]
+Userus213
 
 ### 🔗 Ссылки
 - Оригинальный мод: [ModWorkshop](https://modworkshop.net/mod/45238)
